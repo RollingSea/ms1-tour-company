@@ -4,6 +4,9 @@ header.header {
     margin: 0;
 }
 
+body {
+    background-color: #85B3D1FF;
+}
 
 .ui-menu-color-home {
     background-color: #2460a7;
@@ -81,6 +84,7 @@ header.header {
     color: #f7f0e5;
     position: absolute;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -115,6 +119,99 @@ header.header {
     background-color: #85B3D1FF;
 }
 
+/*---------------------------What you can expect------*/
+
+h2 {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-style: italic;
+    font-weight: 300;
+    color: #f7f0e5;
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.col-sm-6 {
+    padding: 20px;
+
+}
+
+.group-image {
+    background-image: url("../images/streedagh-homepage-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid #D9B48FFF;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    height: 300px;
+}
+
+.logo-png {
+    height: 60px;
+    width: 100px;
+}
+
+.p-text {
+    border: 3px solid #D9B48FFF;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    height: 300px;
+    text-align: center;
+    display: block;
+    color: rgb(48, 52, 83);
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+/*--------------------customer testamonials-----------*/
+.customer-img {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    border: 3px solid #D9B48FFF;
+    display: flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.testimonials {
+    height: 350px;
+}
+
+.testimonials p {
+    text-align: center;
+    padding: 20px;
+    color: rgb(48, 52, 83);
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.about-image {
+    background-image: url("../images/frieda-about.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid #D9B48FFF;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    left: 20%;
+}
+
 /*---------------------------footer-------*/
 .footer {
     color: rgb(48, 52, 83);
@@ -122,7 +219,8 @@ header.header {
     text-align: center;
     min-height: 120px;
     padding-top: 20px;
-    border: 2px solid #D9B48FFF;
+    border: 3px solid #D9B48FFF;
+    border-radius: 3px;
 
     ;
 
