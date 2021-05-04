@@ -4,3 +4,5 @@ This is the Rolling Hills Adventure Company Website ReadMe file. We are a small 
 
 The website has been built using some bootstrap companents starting with the navbar.
 
+Images used are my own and some from www.unsplash.com 
+  
