@@ -51,11 +51,47 @@ Designed wire frames for the site initially. Some of the layout has changed as I
 ### [Gallery-page Wireframe](wireframes/gallery-page.png)
 ### [Contact-page Wireframe](wireframes/contact-page.png)
 
+## Features
+
+- Responsive on all devices
+- Slider Gallery
 
 
-Deployment to Github Pages
+## Languages Used
+ - HTML5
+ - CSS3
+ - Javascript   
+
+## Frameworks and Libraries Used
+
+-  [Bootstrap 4.6.x](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+   - Bootstrap was used for the navigation bar, the slider gallery and to make the site more responsive.
+
+- [Google Fonts](https://fonts.google.com/)
+   - Google fonts was used to import the Open Sans Font into the style sheet and used throughout the site.
+
+- [Hover.css](https://ianlunn.github.io/Hover/)
+
+- [Font Awesome](https://fontawesome.com/)
+  - Font Awesome was used to add the download, social and hiking icons to the site
+
+- [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- [GitHub](https://github.com/)
+    -  GitHub is used to store the projects code after being pushed from Git.
+- [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
+    - Photoshop was used to create the logo, resizing images and editing photos for the website.
+- [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframes during the design process.
+
+
+
+
+
+
+### Deployment to Github Pages
 
 Opened ms1-tour-company repository in github. Clicked on settings, then clicked on pages and set to master and root. Saved and got a link. 
 
-Found that my images were not working in the github pages link. Researched online for a solution. Found one but this then created a problem in gitpod with the images. Got in touch through the tutor pages and got hint to look at relative paths. Researched on this and went back to slack and between the two found that changing from // to / infront if the assets folder solved the issue.
+Found that my images were not working in the github pages link. Researched online for a solution. Found one but this then created a problem in gitpod with the images. Got in touch through the tutor pages and got hint to look at relative paths. Researched on this and went back to slack and between the two found that changing from // to / infront of the assets folder solved the issue. 
   
