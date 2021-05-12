@@ -4,8 +4,7 @@ Welcome to the Rolling Hills Adventure Company Website ReadMe file. We are a sma
 
 [You can view the website here:](https://rollingsea.github.io/ms1-tour-company/about.html) 
 
-[Mokeup image]()
-<h2 align="center"><img src=""></h2>
+<h2 align="center"><img src="wireframes/rolling-hills-index-image.jpg"></h2>
 
 ## User Experience UX
 
@@ -37,6 +36,7 @@ Using Open Sans with a fall back to sans serif throughout the site for a clean m
 #### Imagery
 The bulk of the images are my own. The testimonial images and the group image on the index page were sourced from www.unsplash.com 
 I designed a company logo in Photoshop to add branding to the navbar and be able to highlight the brand throughout the site. 
+![Mokeup image](wireframes/rolling-logo.jpg)
 
 
 The website has been built using some bootstrap companents starting with the navbar.
@@ -44,6 +44,12 @@ The website has been built using some bootstrap companents starting with the nav
 ### Wireframes
 
 Designed wire frames for the site initially. Some of the layout has changed as I worked on creating the site and adapted as I felt might work best for the user.
+
+### [Home-page Wireframe](wireframes/home-page.png)
+### [About-page Wireframe](wireframes/about-page.png)
+### [Tour-page Wireframe](wireframes/tour-page.png)
+### [Gallery-page Wireframe](wireframes/gallery-page.png)
+### [Contact-page Wireframe](wireframes/contact-page.png)
 
 
 
