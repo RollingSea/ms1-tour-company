@@ -93,13 +93,14 @@ body {
     width: 150px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #D9B48FFF;
     color: #f7f0e5;
+    border: 2px solid #f7f0e5;
+    border-radius: 5px;
+    background-color: #D9B48FFF;
     font-size: 16px;
     padding: 12px 24px;
-    border: none;
     cursor: pointer;
-    border-radius: 5px;
+
 }
 
 .main .btn:hover {
@@ -155,10 +156,10 @@ h4 {
     color: #f7f0e5;
     position: relative;
     text-align: center;
-    padding-bottom: 20px;
     font-family: 'Open Sans', sans-serif;
     left: 50%;
 }
+
 
 /*---------Logo Styling------------*/
 .logo-png {
@@ -233,11 +234,14 @@ h4 {
 .tour {
     background-color: #D9B48FFF;
     color: #f7f0e5;
+    border: 2px solid #f7f0e5;
+    border-radius: 5px;
+    background-color: #D9B48FFF;
     font-size: 16px;
     padding: 12px 24px;
-    border: none;
     cursor: pointer;
-    border-radius: 5px;
+    margin: 0 auto;
+
 }
 
 .tour:hover {
@@ -292,9 +296,18 @@ h4 {
 }
 
 /*------------Contact-----------------*/
+.contact {
+    border: 3px solid #D9B48FFF;
+    border-radius: 5px;
+    width: 70%;
+    margin-top: 20px;
+    ;
+}
 
 .form-select {
-    margin-bottom: 20px;
+    margin: 0 auto;
+    width: 80%;
+
 
 }
 
@@ -304,25 +317,28 @@ h4 {
 }
 
 .btn-primary {
-    position: absolute;
+    position: relative;
     left: 50%;
     height: 50px;
     width: 150px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #D9B48FFF;
     color: #f7f0e5;
+    border: 2px solid #f7f0e5;
+    border-radius: 5px;
+    background-color: #D9B48FFF;
     font-size: 16px;
     padding: 12px 24px;
-    border: none;
     cursor: pointer;
-    border-radius: 5px;
     margin-top: 20px;
 }
 
 .btn-primary:hover {
     background-color: #85B3D1FF;
+    border: 2px solid #f7f0e5;
 }
+
+
 
 /*---------------------------footer-------*/
 .footer {

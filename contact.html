@@ -58,53 +58,64 @@
         <div class="container-fluid main">
             <div class="row">
                 <h1>Join us on an Adventure!</h1>
-                <button class="btn">Book a Tour</button>
+                <a href="day-tour.html"><button class="btn">Book a Tour</button></a>
             </div>
         </div>
         <!-------------------------------Contact Form from bootstrap--------------------------->
-        <div class="col">
-            <h2 class="contact-h2">Get in touch with us!</h2>
-            <img src="assets/images/rolling-logo.png" alt="company logo" class="logo-png">
-        </div>
-        <div class="mb-3">
-            <div class="row">
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <input type="email" class="form-control" placeholder="Email" id="exampleFormControlInput1"
-                        aria-label="Email">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                        placeholder="Enter your message here..."></textarea>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <button type="submit" class="btn btn-primary">Send</button>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="row">
-                <h2 class="contact-h2">Find us here:</h2>
+        <div class="container-fluid contact">
+            <div class="col">
+                <h2 class="contact-h2">Get in touch with us!</h2>
                 <img src="assets/images/rolling-logo.png" alt="company logo" class="logo-png">
             </div>
-            <h3>Rolling Hills Adventure Company</h3>
-            <h4>Carracastle</h4>
-            <h4>Tubbercurry</h4>
-            <h4>Co.Mayo</h4>
-            <h4>Tel: 088-634872823</h4>
+            <div class="mb-3">
+                <form action="https://formdump.codeinstitute.net" method="POST">
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="First name" aria-label="First name"
+                                required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"
+                                required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <input type="email" class="form-control" placeholder="Email" id="exampleFormControlInput1"
+                                aria-label="Email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                placeholder="Enter your message here..." required></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        </div>
+        <div class="container-fluid">
+            <div class="col">
+                <div class="row">
+                    <h2 class="contact-h2">Find us here:</h2>
+                    <img src="assets/images/rolling-logo.png" alt="company logo" class="logo-png">
+                </div>
+                <h3>Rolling Hills Adventure Company</h3>
+                <h4>Address:</h4>
+                <h4>Carracastle</h4>
+                <h4>Tubbercurry</h4>
+                <h4>Co.Mayo</h4>
+                <h4>Tel: 088-634872823</h4>
+            </div>
         </div>
     </section>
     <!--------------------Footer----------------------->
