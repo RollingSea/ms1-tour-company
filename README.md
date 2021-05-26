@@ -30,7 +30,7 @@ Welcome to the Rolling Hills Adventure Company Website ReadMe file. We are a sma
 
 - ### Design
 #### Color Scheme Used
-Using a set of 4 colors to suit the outdoor nature theme of the company and highlight the images to their best advantage.
+Using a set of 4 colors to suit the outdoor nature theme of the company and highlight the images to their best advantage. 
 #### Font
 Using Open Sans with a fall back to sans serif throughout the site for a clean modern look.
 #### Imagery
@@ -39,7 +39,7 @@ I designed a company logo in Photoshop to add branding to the navbar and be able
 ![Mokeup image](wireframes/rolling-logo.jpg)
 
 
-The website has been built using some bootstrap companents starting with the navbar.
+The website has been built using some bootstrap components starting with the navbar.
 
 ### Wireframes
 
@@ -85,8 +85,15 @@ Designed wire frames for the site initially. Some of the layout has changed as I
     - Balsamiq was used to create the wireframes during the design process.
 
 
+### Testing
 
-
+Tested the site as I built each section using Chrome Developer Tools. Found this particularly helpful for picking up issues with responsiveness and layout and being able to edit style rules to see results is great. 
+- Things I have checked:
+   - All navbar links pointing to the correct pages and hover and active styling is working.
+   - All buttons styled the same throughout and directing the user to the correct pages and files.
+   - All Divs and images checked for responsiveness, making sure images aren't stretched and content does not overlap.
+   - Image Slider checked for responsiveness and image quality. 
+   - Contact Form and Tour Booking Forms checked for collecting data using the Code Institute https://formdump.codeinstitute.net/ for testing. Later removed this to allow for better user experience by directing the user to a booking confirmation page and a Thanks for your message page. 
 
 
 ### Deployment to Github Pages
@@ -94,4 +101,6 @@ Designed wire frames for the site initially. Some of the layout has changed as I
 Opened ms1-tour-company repository in github. Clicked on settings, then clicked on pages and set to master and root. Saved and got a link. 
 
 Found that my images were not working in the github pages link. Researched online for a solution. Found one but this then created a problem in gitpod with the images. Got in touch through the tutor pages and got hint to look at relative paths. Researched on this and went back to slack and between the two found that changing from // to / infront of the assets folder solved the issue. 
+
+
   
