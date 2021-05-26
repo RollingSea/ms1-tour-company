@@ -95,6 +95,13 @@ Tested the site as I built each section using Chrome Developer Tools. Found this
    - Image Slider checked for responsiveness and image quality. 
    - Contact Form and Tour Booking Forms checked for collecting data using the Code Institute https://formdump.codeinstitute.net/ for testing. Later removed this to allow for better user experience by directing the user to a booking confirmation page and a Thanks for your message page. 
 
+### HTML and CSS Validation
+
+- Ran code through [W3C Validator](https://validator.w3.org/)
+   - received error for main image button wrapped in an a tag. Resolved this by turning the button tag into an a tag and adding the href link and keeping the button classes for styling.
+   - Also had a stray closing div tag and i tag. Which I removed.
+   - got an warning on all my comments in html for using too many hyphens. Removed excess hyphens.
+
 
 ### Deployment to Github Pages
 
