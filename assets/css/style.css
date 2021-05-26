@@ -302,11 +302,6 @@ h4 {
     font-size: 30px;
     color: #f7f0e5;
     text-align: center;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-
 }
 
 

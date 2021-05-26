@@ -101,45 +101,54 @@
                         <form action="https://formdump.codeinstitute.net" method="POST">
                             <div class="row">
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="First name"
+                                    <input type="text" name="fname" class="form-control" placeholder="First name"
                                         aria-label="First name" required>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="Last name"
+                                    <input type="text" name="lname" class="form-control" placeholder="Last name"
                                         aria-label="Last name" required>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <input type="email" class="form-control" placeholder="Email"
+                                    <input type="email" name="email" class="form-control" placeholder="Email"
                                         id="exampleFormControlInput1" aria-label="Email" required>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <select class="form-select" aria-label="Default select example">
+                                    <select class="form-select" name="adults" aria-label="Default select example">
                                         <option selected>Number of Adults</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
+                                        <option value="1">None</option>
+                                        <option value="2">One</option>
+                                        <option value="3">Two</option>
                                         <option value="3">Three</option>
+                                        <option value="3">Four</option>
+                                        <option value="3">Five</option>
+                                        <option value="3">Six</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <select class="form-select" aria-label="Default select example">
+                                    <select class="form-select" name="children" aria-label="Default select example">
                                         <option selected>Number of Children</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
+                                        <option value="1">None</option>
+                                        <option value="2">One</option>
+                                        <option value="3">Two</option>
                                         <option value="3">Three</option>
+                                        <option value="3">Four</option>
+                                        <option value="3">Five</option>
+                                        <option value="3">Six</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <a href="booking-confirmation.html"><button class="tour btn btn-primary mb-3">Book a
+                                    <a href="booking-confirmation.html" target="_blank"><button
+                                            class="tour btn btn-primary mb-3">Book a
                                             Tour</button></a>
                                 </div>
                             </div>
@@ -559,7 +568,7 @@
         <div class="row">
             <div class="col-sm-4 footer footer-download">
                 <h5>Download our Guide to Walking in Ireland!</h5>
-                <a href="#" target="_blank" class="walking-guide">
+                <a href="assets/guide/rolling-hills-walking-guide.docx" target="_blank" class="walking-guide">
                     <i class="fas fa-download"></i>
                 </a>
             </div>
