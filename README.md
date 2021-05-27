@@ -100,7 +100,8 @@ Tested the site as I built each section using Chrome Developer Tools. Found this
 - Ran code through [W3C Validator](https://validator.w3.org/)
    - received error for main image button wrapped in an a tag. Resolved this by turning the button tag into an a tag and adding the href link and keeping the button classes for styling.
    - Also had a stray closing div tag and i tag. Which I removed.
-   - got an warning on all my comments in html for using too many hyphens. Removed excess hyphens.
+   - Got a warning on all my comments in html for using too many hyphens. Removed excess hyphens from all comments.
+   - Using the boostrap form components came up with an error of duplicate use of #exampleFormControlInput1 troughout the forms. Fixed the issue by removing the id altogether and it seems to have worked. 
 
 
 ### Deployment to Github Pages
@@ -108,6 +109,13 @@ Tested the site as I built each section using Chrome Developer Tools. Found this
 Opened ms1-tour-company repository in github. Clicked on settings, then clicked on pages and set to master and root. Saved and got a link. 
 
 Found that my images were not working in the github pages link. Researched online for a solution. Found one but this then created a problem in gitpod with the images. Got in touch through the tutor pages and got hint to look at relative paths. Researched on this and went back to slack and between the two found that changing from // to / infront of the assets folder solved the issue. 
+
+### Credits
+
+- I would like to thank my mentor, tutors and all the peeps on slack for their continued support. 
+- I used bootstrap components for the navigation bar, the slider image gallery and the forms used throughout the site. The layout and design of the footer was inspired by the Resume Project from Code Institute. 
+
+
 
 
   
