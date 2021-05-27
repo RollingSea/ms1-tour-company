@@ -38,9 +38,6 @@ The bulk of the images are my own. The testimonial images and the group image on
 I designed a company logo in Photoshop to add branding to the navbar and be able to highlight the brand throughout the site. 
 ![Mokeup image](wireframes/rolling-logo.jpg)
 
-
-The website has been built using some bootstrap components starting with the navbar.
-
 ### Wireframes
 
 Designed wire frames for the site initially. Some of the layout has changed as I worked on creating the site and adapted as I felt might work best for the user.
@@ -55,6 +52,7 @@ Designed wire frames for the site initially. Some of the layout has changed as I
 
 - Responsive on all devices
 - Slider Gallery
+- Contact Form and Booking Forms
 
 
 ## Languages Used
@@ -65,7 +63,7 @@ Designed wire frames for the site initially. Some of the layout has changed as I
 ## Frameworks and Libraries Used
 
 -  [Bootstrap 4.6.x](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
-   - Bootstrap was used for the navigation bar, the slider gallery and to make the site more responsive.
+   - Bootstrap was used for the navigation bar, the slider gallery, contact and booking forms and to make the site more responsive.
 
 - [Google Fonts](https://fonts.google.com/)
    - Google fonts was used to import the Open Sans Font into the style sheet and used throughout the site.
@@ -102,6 +100,7 @@ Tested the site as I built each section using Chrome Developer Tools. Found this
    - Also had a stray closing div tag and i tag. Which I removed.
    - Got a warning on all my comments in html for using too many hyphens. Removed excess hyphens from all comments.
    - Using the boostrap form components came up with an error of duplicate use of #exampleFormControlInput1 troughout the forms. Fixed the issue by removing the id altogether and it seems to have worked. 
+- No errors where found in the css style sheet.
 
 
 ### Deployment to Github Pages
