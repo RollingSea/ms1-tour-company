@@ -41,6 +41,10 @@ body {
     color: #f7f0e5;
 }
 
+.nav-link {
+    border: 2px solid transparent;
+}
+
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show>.nav-link {
     color: #f7f0e5;

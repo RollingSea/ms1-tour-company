@@ -1,10 +1,12 @@
 <h1 align="center">Rolling Hills Tour Company</h1>
 
+<h2 align="center"><img src="assets/images/mockup-screenshot.png"></h2>
+
 Welcome to the Rolling Hills Adventure Company Website ReadMe file. We are a small tour company based in the West of Ireland. On our site you can find out more about us, the places we love and the tours you can book with us. The site is designed to be responsive and to tease you with beautiful scenery ready for you to explore with us.
 
 [You can view the website here:](https://rollingsea.github.io/ms1-tour-company/about.html) 
 
-<h2 align="center"><img src="wireframes/rolling-hills-index-image.jpg"></h2>
+<h2 align="center"><img src="assets/images/rolling-hills-index-image.jpg"></h2>
 
 ## User Experience UX
 
@@ -111,8 +113,9 @@ Found that my images were not working in the github pages link. Researched onlin
 
 ### Credits
 
-- I would like to thank my mentor, tutors and all the peeps on slack for their continued support. 
+- I would like to thank my mentor, tutors and all the peeps on slack for their continued support, especially Francis Kershaw who gave me a tip on fixing a flicker of movement in my navbar by using a transparent border.
 - I used bootstrap components for the navigation bar, the slider image gallery and the forms used throughout the site. The layout and design of the footer was inspired by the Resume Project from Code Institute. 
+- I continued looking back over course content to refresh on certain areas and also found it helpful to look at [W3Schools](https://www.w3schools.com/)
 
 
 
